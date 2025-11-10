@@ -65,3 +65,9 @@ Attach this policy to your S3 bucket to allow **public read access**.
 		Visit your S3 Static Website URL
 		You should see your portfolio live! 🎉
 
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a43ac513-77ce-41b6-8978-5bef32aa83c5" alt="AWS S3 Screenshot" width="600">
+</p>
+
