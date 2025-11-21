@@ -1,0 +1,25 @@
+image: node:18
+
+pipelines:
+  default:
+    - step:
+        name: Build
+        caches:
+          - node
+        script:
+          - echo "=== Build: installing dependencies ==="
+          - npm ci || npm install
+
+    - step:
+        name: Test
+        caches:
+          - node
+        script:
+          - echo "=== Test: running unit tests ==="
+          - npm test
+
+    - step:
+        name: Deploy
+        script:
+          - echo "=== Deploy: placeholder ==="
+          - echo "Deploying to server..."
