@@ -1,4 +1,4 @@
-🌐 #AWS S3 Static Website Hosting Using Terraform #
+# 🌐 AWS S3 Static Website Hosting Using Terraform
 
 A beginner-friendly Infrastructure as Code (IaC) project that deploys a fully functional static website hosted on Amazon S3, built and managed using Terraform. The website files (HTML/CSS) are stored in S3, and S3 website hosting is enabled for public access.
 
@@ -8,18 +8,7 @@ A beginner-friendly Infrastructure as Code (IaC) project that deploys a fully fu
 - Run Terraform code to create S3 Website
 - Upload index.html
 - Access the public S3 Website URL
-
-Devops-Project-6/
-  - README.md                # Project documentation
-  - terraform/               # All Terraform IaC files
-        provider.tf
-        main.tf
-        variables.tf
-        output.tf
-  - website/                 # Static website files
-        index.html
-
-
+  
 
 🟦 **Step 1: Launch an EC2 Instance**
 
